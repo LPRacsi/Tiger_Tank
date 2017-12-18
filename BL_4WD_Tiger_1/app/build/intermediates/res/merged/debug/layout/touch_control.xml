@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mRelativeLayout"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:text="Button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="35dp"
+        android:id="@+id/towerRight" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/towerRight"
+        android:layout_toLeftOf="@+id/towerRight"
+        android:layout_marginRight="15dp"
+        android:id="@+id/towerLeft" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gunUp"
+        android:layout_alignLeft="@+id/gunUp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/gunDown" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/gunUp"
+        android:layout_below="@+id/towerRight"
+        android:layout_alignLeft="@+id/towerLeft"
+        android:layout_marginLeft="65dp" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="11dp"
+        android:id="@+id/towerDefaultPlus" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/towerDefaultPlus"
+        android:layout_toLeftOf="@+id/towerDefaultPlus"
+        android:id="@+id/towerDefaultMinus" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">RC Tiger 1</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="title_activity_main">RC Tiger 1</string>
+    <string name="title_activity_touch">RC Tiger 1 - Touch control</string>
+    <string name="title_activity_arrows">RC Tiger 1 - Touch control</string>
+
+    <string name="btn_touch">Touch control</string>
+
+    <string name="default_MAC">98:D3:32:10:6E:8C</string>
+    <string name="default_xR">5</string>
+    <string name="default_xMax">7</string>
+    <string name="default_yMax">5</string>
+    <string name="default_yThreshold">50</string>
+    <string name="default_pwmMax">255</string>
+    <string name="default_commandLeft">L</string>
+    <string name="default_commandRight">R</string>
+    <string name="default_commandHorn">H</string>
+    <string name="default_pwmBtnMotorLeft">255</string>
+    <string name="default_pwmBtnMotorRight">255</string>
+    <string name="default_xRperc">60</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.RC_Tiger_1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:icon="@drawable/tank"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.RC_Tiger_1.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.RC_Tiger_1.SetPreferenceActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.RC_Tiger_1.ActivityTouch"
+            android:label="@string/title_activity_touch" >
+        </activity>
+        <activity
+            android:name="com.RC_Tiger_1.ActivityArrows"
+            android:label="@string/title_activity_arrows" >
+        </activity>
+    </application>
+
+</manifest>

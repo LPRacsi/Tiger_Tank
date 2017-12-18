@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="H:\Android_sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta4\constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="C:\Users\Racsi\AndroidStudioProjects\BL_4WD_Tiger_1\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.0-beta4_2e9703886104778e390418958772e5339835b9d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\Android_sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Racsi\AndroidStudioProjects\BL_4WD\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_b010c4dd9296aaa3feb79f0f40a460cf8a587097.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Racsi\AndroidStudioProjects\BL_4WD_Tiger_1\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-beta4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="C:\Users\Racsi\AndroidStudioProjects\BL_4WD_Tiger_1\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.0-beta4_0c8489ff0313bf093e4e2c1dac9012e5fabdb572.jar" />
+    </item>
+
+</items>
